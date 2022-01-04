@@ -1,0 +1,23 @@
+Cypress and Seleniu
+
+- Cypress use only JS an jquery
+- can run on chrome, ff, edge and electron
+- it is easy to run headless test execution
+- it is easy to get screen shot and videos
+- it is easy to debug
+- Caypress help us to find locators easyly
+
+- Cypress wait 4 seconds dynamically by defaults
+- this wait will apply if needed.
+
+get, find within
+-We should try get() to find element first
+-if this fails to locate the element (it can be not visible, not unique) then try find()
+-if this not work try within()
+
+-- to skipp the test it.skip
+
+-cypress automatically accepts alert when you click on it
+-we don't see the pop up alert window
+
+-- to ru the cypress test using terminal
