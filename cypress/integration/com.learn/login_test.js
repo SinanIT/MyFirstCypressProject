@@ -24,7 +24,4 @@ describe('Log in', ()=>{
         cy.url().should('include', 'LogOnWithCaptcha')
 
     })
-    cy.get(':nth-child(5) > .blog-img')
-
-
 })
